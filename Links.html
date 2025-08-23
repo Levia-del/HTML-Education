@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Links</title>
+<style>
+a{
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_w3schools">Link element, href attribute represents the link itself</a>
+<br>
+<h1>In order to control how the link is going to open use the target attribute</h1>
+<hr>
+<a href ="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target" target="_self">_self is set on default, will open it in the same window</a>
+<br>
+<br>
+<a href ="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target" target="_blank">_blank will open it in a new window</a>
+<br>
+<br>
+<a href ="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target" target="_parent">_parent will open it in the first window of the path that got you to this window</a>
+<br>
+<br>
+<a href ="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target" target="_top">_top will open it in the same way as _self but breaking out of all sub frames or windows</a>
+</body>
+<hr>
+<br>
+<hr>
+<br>
+<h1>Absolute vs Relative URL</h1>
+<br>
+<br>
+<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target" target = "_blank">Absolute URL - a full web adress</a>
+<br>
+<br>
+<a href="image.jpg" target = "_blank">Relative URL - a shorted adress within the same website, without the "http://www"</a>
+<br>
+<br>
+<h1>Any element can be a link, even an image</h1>
+<a href="image.jpg">
+<img src="image.jpg" alt="beautiful image">
+</a>
+<br>
+<br>
+<a href="mailto:levlola579@gmail.com">Use mailto: in href attribute to use an email adress as a link</a>
+<br>
+<br>
+<h1>To use button as a link, in the onclick attribute type document.location='adress'</h1>
+<button onclick="document.location='image.jpg'">Not a link to an add</button>
+<br>
+<br>
+<a href="image.jpg" title="A beautiful image" target="_blank">Use the title attribute to edit what is displayed when the link is hovered over</a>
+</html>
